@@ -1,0 +1,20 @@
+.header__logo {
+   position: relative;
+   z-index: 2;
+   font-weight: 700;
+   font-size: 18px;
+   line-height: 139%;
+   display: inline-flex;
+   align-items: flex-end;
+}
+.logo--light{
+   color: #f8f9fa;
+}
+.logo--dark{
+   color: #495057;
+}
+.header__logo::after {
+   content: ".";
+   color: #ddbea9;
+}
+
